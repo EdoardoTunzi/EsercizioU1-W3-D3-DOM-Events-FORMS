@@ -11,17 +11,13 @@
       <h1>To-do List</h1>
     </header>
     <main>
-      <div class="addTask">
+      <form class="addTask">
         <label>Inserisci un nuovo task</label>
-        <input type="text" placeholder="Crea un nuovo task" />
+        <input id="new-Task" type="text" placeholder="Crea un nuovo task" />
         <button>Aggiungi</button>
-      </div>
+      </form>
 
-      <div class="listSection">
-        <ul>
-          <li>NOme</li>
-        </ul>
-      </div>
+      <div id="tasks-container" class="tasks-container"></div>
     </main>
     <script src="./Assets/js/script.js"></script>
   </body>
