@@ -17,7 +17,7 @@ form.onsubmit = function (event) {
   newTask.innerHTML += `
          
           <h3>${taskName}</h3>
-          <button class="delete">Delete</button>
+          <button class="delete">X</button>
 `;
   // aggiungo il nuovo task (il div) al contenitore dei task
   taskContainer.appendChild(newTask);
@@ -30,7 +30,7 @@ form.onsubmit = function (event) {
   // DA FINIRE - evento per rendere il nome task sbarrato se completato
   const taskTitle = document.querySelector("h3");
   taskTitle.onclick = function () {
-    taskTitle.style.textDecoration = "line.through";
+    taskTitle.style.textDecoration = "line-through";
   };
   taskInput.value = ""; //Resetto il campo input dopo l'aggiunta
 };
