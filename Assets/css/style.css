@@ -1,0 +1,34 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+header {
+  background-color: #1d8181;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #d1e4ed;
+}
+.addtask {
+  display: inline-block;
+  margin-inline: auto;
+}
+.addTask label {
+  display: block;
+}
+.addTask input {
+  width: 370px;
+  height: 2rem;
+}
+
+.listSection {
+  border: 1px solid black;
+}
